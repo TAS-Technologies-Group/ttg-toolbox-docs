@@ -1,4 +1,4 @@
-# TTG Toolbox Doc
+# TTG Toolbox Docs
 
 https://docs.ttgtoolbox.com
 
