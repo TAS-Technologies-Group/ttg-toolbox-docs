@@ -44,7 +44,7 @@ export default defineConfig({
 
     editLink: {
       pattern:
-        "https://github.com/TAS-Technologies-Group/ttg-toolbox-docs/edit/main/:path",
+        "https://github.com/TAS-Technologies-Group/ttg-toolbox-docs/edit/main/docs/:path",
       text: "Edit this page on GitHub",
     },
 
