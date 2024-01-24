@@ -11,7 +11,7 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: "./images/logo-plain.svg",
+    logo: "/logo-plain.svg",
     nav: [
       { text: "Home", link: "/" },
       { text: "SMS Gateway", link: "/sms-gateway" },
