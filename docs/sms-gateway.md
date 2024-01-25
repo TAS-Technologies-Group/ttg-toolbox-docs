@@ -1,6 +1,6 @@
 # What is SMS Gateway?
 
-**SMS Gateway** is [TAS Technology Group's](https://tastechgroup.com) programmable SMS messaging platform for critical business communications.
+**SMS Gateway** is [TAS Technologies Group's](https://tastechgroup.com) programmable SMS messaging platform for critical business communications.
 
 ## Feature Highlights
 

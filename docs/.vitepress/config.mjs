@@ -14,10 +14,15 @@ export default defineConfig({
     logo: "/logo-plain.svg",
     nav: [
       { text: "Home", link: "/" },
-      { text: "SMS Gateway", link: "/sms-gateway" },
+      { text: "Document Library", link: "/introduction" },
+      { text: "API Reference", link: "/api-reference" },
     ],
 
     sidebar: [
+      {
+        text: "Document Library",
+        items: [{ text: "Introduction", link: "/introduction" }],
+      },
       {
         text: "SMS Gateway",
         items: [

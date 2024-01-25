@@ -24,4 +24,18 @@ features:
     details: Programmable secure messaging that allows you to add encrypted messaging to any platform.
   - title: KPI Dashboard
     details: Transform your contact center operations with actionable insights and realtime analytics.
+    link: /kpi-dashboard
+    linkText: Go to docs
+  - title: On Premise Fax Service
+    details: Ditch the copper and equipment hassles with a plug-in replacement for legacy fax systems.
+    link: /fax-service
+    linkText: Go to docs
+  - title: eFax Service
+    details: Easily send and receive faxes via email. Options to resend, redirect, and download documents directly from your email.
+    link: /efax
+    linkText: Go to docs
+  - title: Encrypted Email Service
+    details: A dead-simple solution for sending secure, encrypted email via any platform.
+    link: /efax
+    linkText: Go to docs
 ---
