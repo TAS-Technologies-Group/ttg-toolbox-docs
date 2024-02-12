@@ -2,13 +2,13 @@
   "name": "ttg-toolbox-docs",
   "version": "0.0.0",
   "description": "TTG Toolbox public facing documentation",
-  "devDependencies": {
-    "vitepress": "^1.0.0-rc.40",
-    "vue": "^3.4.15"
-  },
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.42",
+    "vue": "^3.4.18"
   }
 }

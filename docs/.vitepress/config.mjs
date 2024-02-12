@@ -21,17 +21,36 @@ export default defineConfig({
     sidebar: [
       {
         text: "Document Library",
-        items: [{ text: "Introduction", link: "/introduction" }],
+        items: [
+          { text: "Introduction", link: "/introduction" },
+          { text: "Getting Help", link: "/getting-help" },
+        ],
       },
       {
         text: "SMS Gateway",
         items: [
-          { text: "Introduction", link: "/sms-gateway" },
+          { text: "What is SMS Gateway?", link: "/sms-gateway" },
           { text: "Getting Started", link: "/sms-gateway/getting-started" },
         ],
       },
       {
         text: "Secure Text App",
+        items: [],
+      },
+      {
+        text: "KPI Dashboard",
+        items: [],
+      },
+      {
+        text: "On Premise Fax Service",
+        items: [],
+      },
+      {
+        text: "eFax Service",
+        items: [],
+      },
+      {
+        text: "Encrypted Email Service",
         items: [],
       },
     ],

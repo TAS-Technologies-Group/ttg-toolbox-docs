@@ -19,7 +19,7 @@ features:
     link: /sms-gateway
     linkText: Go to docs
   - title: Secure Test App
-    link: /api-examples.html
+    link: /secure-text-app
     linkText: Go to docs
     details: Programmable secure messaging that allows you to add encrypted messaging to any platform.
   - title: KPI Dashboard
@@ -36,6 +36,6 @@ features:
     linkText: Go to docs
   - title: Encrypted Email Service
     details: A dead-simple solution for sending secure, encrypted email via any platform.
-    link: /efax
+    link: /encrypted-email
     linkText: Go to docs
 ---
