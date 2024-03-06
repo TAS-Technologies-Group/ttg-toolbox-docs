@@ -6,7 +6,7 @@ api: https://api.ttgtoolbox.com/v1/weather
 ---
 
 <script setup>
-import DividePage from '../components/DividerPage.vue'   
+import DividePage from '../../components/DividerPage.vue'   
 </script>
 
 # Weather API
