@@ -1,10 +1,7 @@
 ---
 title: API Reference
-layout: page
+layout: doc
+aside: false
 ---
 
-<script setup>
-  import ComingSoon from '../components/ComingSoon.vue'
-</script>
-
-<ComingSoon :title="$frontmatter.title"/>
+# Agent Assist API Reference
