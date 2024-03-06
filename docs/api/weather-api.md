@@ -27,7 +27,7 @@ Retrieves the current weather conditions for a given country and zip/postal code
 
 ---
 
-### Endpoint <Badge type="tip" text="POST" />
+### Endpoint <Badge type="tip" text="GET" />
 
 <pre>{{ $frontmatter.api }}/<Badge type="tip" text="country_code" />/<Badge type="tip" text="postal_code" />/current</pre>
 
