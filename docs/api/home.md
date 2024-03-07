@@ -17,19 +17,19 @@ hero:
 features:
   - title: Location API
     details: Distance calculations, directions, map link generation.
-    link: api/location
+    link: api/location/introduction
     linkText: Reference docs
   - title: Summary API
     details: AI message summary, content analysis, and data extraction.
-    link: api/summary
+    link: api/summary/introduction
     linkText: Reference docs
   - title: Translation API
     details: Easy and intelligent text translation.
-    link: api/translation
+    link: api/translation/introduction
     linkText: Reference docs
   - title: Validation API
     details: AI assisted validation for address, phone numbers, message content.
-    link: api/validation
+    link: api/validation/introduction
     linkText: Reference docs
   - title: Weather API
     details: Current conditions and forecast anywhere in the US & Canada.

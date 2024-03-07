@@ -24,14 +24,14 @@ export default defineConfig({
         {
           text: "Document Library",
           items: [
-            { text: "Introduction", link: "/introduction" },
+            { text: "Introduction", link: "/library/introduction" },
             { text: "Getting Help", link: "/getting-help" },
           ],
         },
         {
           text: "SMS Gateway",
           items: [
-            { text: "What is SMS Gateway?", link: "/sms-gateway" },
+            { text: "What is SMS Gateway?", link: "/library/sms-gateway" },
             { text: "Getting Started", link: "/sms-gateway/getting-started" },
           ],
         },
@@ -58,6 +58,44 @@ export default defineConfig({
       ],
       "/api/": [
         {
+          text: "Location API",
+          items: [
+            {
+              text: "Introduction",
+              link: "/api/location/introduction",
+            },
+            {
+              text: "Directions",
+              link: "/api/location/directions",
+            },
+            {
+              text: "Distance",
+              link: "/api/location/distance",
+            },
+            {
+              text: "Geocode",
+              link: "/api/location/geocode",
+            },
+            {
+              text: "Reverse Geocode",
+              link: "/api/location/reverse-geocode",
+            },
+          ],
+        },
+        {
+          text: "Summary API",
+          items: [
+            {
+              text: "Introduction",
+              link: "/api/summary/introduction",
+            },
+            {
+              text: "Summarize Message",
+              link: "/api/summary/message-summary",
+            },
+          ],
+        },
+        {
           text: "Translation API",
           items: [
             {
@@ -67,6 +105,27 @@ export default defineConfig({
             {
               text: "Translate Text",
               link: "/api/translation/translate-text",
+            },
+          ],
+        },
+        {
+          text: "Validate API",
+          items: [
+            {
+              text: "Introduction",
+              link: "/api/validation/introduction",
+            },
+            {
+              text: "Validate Address",
+              link: "/api/validation/validate-address",
+            },
+            {
+              text: "Validate Message",
+              link: "/api/validation/validate-message",
+            },
+            {
+              text: "Validate Phone Number",
+              link: "/api/validation/validate-phone-number",
             },
           ],
         },
