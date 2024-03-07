@@ -26,13 +26,13 @@ features:
     details: Transform your contact center operations with actionable insights and realtime analytics.
     link: /kpi-dashboard
     linkText: Go to docs
-  - title: On Premise Fax Service
-    details: Ditch the copper and equipment hassles with a plug-in replacement for legacy fax systems.
-    link: /fax-service
+  - title: Agent Assist APIs
+    details: Streamline your workflow with Agent Assist - the all-in-one API suite for efficient validation, translation, text summarization, and more.
+    link: /agent-assist
     linkText: Go to docs
-  - title: eFax Service
-    details: Easily send and receive faxes via email. Options to resend, redirect, and download documents directly from your email.
-    link: /efax
+  - title: Fax Services
+    details: Ditch the copper and equipment hassles with a plug-in replacement for legacy fax systems. On-remise and eFax options available.
+    link: /fax-service
     linkText: Go to docs
   - title: Encrypted Email Service
     details: A dead-simple solution for sending secure, encrypted email via any platform.

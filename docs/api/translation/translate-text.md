@@ -6,28 +6,14 @@ api: https://api.ttgtoolbox.com/v1/translations
 ---
 
 <script setup>
-import DividePage from '../../components/DividerPage.vue'   
+import DividePage from '../../../components/DividerPage.vue'   
 </script>
 
-# Translation API <Badge type="tip" text="✓ BAA" />
-
-Break language barriers effortlessly with our Translation API. Seamlessly translate text between multiple languages, enabling communication and enhancing user experiences across diverse audiences.
-
-#### Base URL
-
-<pre>{{ $frontmatter.api }}</pre>
-
-#### Authentication
-
-Authentication is required for all API endpoints using **API Tokens** sent in the request header. See the [Getting Started](/api/getting-started) to learn how to set up your keys and authenticate to the API.
-
-## Translate Text
+# Translate Text
 
 Translates text by automatically detecting the source language and translating it to the target language.
 
----
-
-### Endpoint <Badge type="tip" text="POST" />
+## Endpoint <Badge type="tip" text="POST" />
 
 <pre>{{ $frontmatter.api }}</pre>
 
@@ -38,28 +24,27 @@ Translates text by automatically detecting the source language and translating i
 
 ### Request body
 
-This endpoint use the `POST` method and requires a JSON object in the request body.
+This endpoint use the `POST` method and requires a JSON object as the request body.
 
 #### Required parameters
 
 The following parameters are required as the request body.
 
-<Badge type="tip" text="to" /><Badge type="info" text="string" /><Badge type="danger" text="required" /><br/>
+<b><pre>to</pre></b><Badge type="info" text="string" /><Badge type="danger" text="required" /><br/>
 
-The language to translate `to`. See supported languages below.
+The language to translate `to`. See [supported languages](#supported-languages) below.
 
-<Badge type="tip" text="text" /><Badge type="info" text="string" /><Badge type="danger" text="required" /><br/>
+<b><pre>text</pre></b><Badge type="info" text="string" /><Badge type="danger" text="required" /><br/>
 
 The text to translate.
 
 #### Optional parameters
 
-<br />
-<Badge type="tip" text="from" /><Badge type="info" text="string" /><br/>
+<b><pre>text</pre></b><Badge type="info" text="string" /><br/>
 
 The language to translate `from`. Unless explicitly specified using the `from` parameter, the API will determine the source language automatically,
 
-<Badge type="tip" text="promptSuffix" /><Badge type="info" text="string" /><Badge type="warning" text="advanced feature" /><br/>
+<b><pre>promptSuffix</pre></b><Badge type="info" text="string" /><Badge type="warning" text="advanced feature" /><br/>
 
 A prompt suffix can be included to add additional context and instructions for the translation.
 
@@ -101,7 +86,7 @@ A prompt suffix can be included to add additional context and instructions for t
 
 ### Returns
 
-The a JSON body containing the translated text and estimated credit usage.
+A JSON object containing the translated text and estimated credit usage.
 
 ---
 
@@ -130,7 +115,7 @@ The Translation API uses a [Large Language Model (LLM)](https://en.wikipedia.org
 
 ## Supported languages
 
-The following languages are supported for bi-directional translation and can be specified using either the `from` or `to` parameters.
+Bidirectional translation is supported for the following languages, which can be specified using either the `from` or `to` parameters.
 
 | Language         |
 | ---------------- |

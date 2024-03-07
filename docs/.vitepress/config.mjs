@@ -4,56 +4,91 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "Toolbox Docs",
   description:
-    "Simple, Secure, Compliant Messaging for Everyday Communications.",
+    "Documentation for the TAS Technologies Group Toolbox. A curated suite of tools for contact centers.",
   cleanUrls: {
     type: Boolean,
     default: true,
   },
+  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/logo-plain.svg",
     nav: [
       { text: "Home", link: "/" },
       { text: "Document Library", link: "/introduction" },
-      { text: "API Reference", link: "/api-reference" },
+      { text: "API Reference", link: "/api/home" },
     ],
 
-    sidebar: [
-      {
-        text: "Document Library",
-        items: [
-          { text: "Introduction", link: "/introduction" },
-          { text: "Getting Help", link: "/getting-help" },
-        ],
-      },
-      {
-        text: "SMS Gateway",
-        items: [
-          { text: "What is SMS Gateway?", link: "/sms-gateway" },
-          { text: "Getting Started", link: "/sms-gateway/getting-started" },
-        ],
-      },
-      {
-        text: "Secure Text App",
-        items: [],
-      },
-      {
-        text: "KPI Dashboard",
-        items: [],
-      },
-      {
-        text: "On Premise Fax Service",
-        items: [],
-      },
-      {
-        text: "eFax Service",
-        items: [],
-      },
-      {
-        text: "Encrypted Email Service",
-        items: [],
-      },
-    ],
+    sidebar: {
+      "/": [
+        {
+          text: "Document Library",
+          items: [
+            { text: "Introduction", link: "/introduction" },
+            { text: "Getting Help", link: "/getting-help" },
+          ],
+        },
+        {
+          text: "SMS Gateway",
+          items: [
+            { text: "What is SMS Gateway?", link: "/sms-gateway" },
+            { text: "Getting Started", link: "/sms-gateway/getting-started" },
+          ],
+        },
+        {
+          text: "Secure Text App",
+          items: [],
+        },
+        {
+          text: "KPI Dashboard",
+          items: [],
+        },
+        {
+          text: "On Premise Fax Service",
+          items: [],
+        },
+        {
+          text: "eFax Service",
+          items: [],
+        },
+        {
+          text: "Encrypted Email Service",
+          items: [],
+        },
+      ],
+      "/api/": [
+        {
+          text: "Translation API",
+          items: [
+            {
+              text: "Introduction",
+              link: "/api/translation/introduction",
+            },
+            {
+              text: "Translate Text",
+              link: "/api/translation/translate-text",
+            },
+          ],
+        },
+        {
+          text: "Weather API",
+          items: [
+            {
+              text: "Introduction",
+              link: "/api/weather/introduction",
+            },
+            {
+              text: "Current Conditions",
+              link: "/api/weather/current-conditions",
+            },
+            {
+              text: "Hourly Forecast",
+              link: "/api/weather/hourly-forecast",
+            },
+          ],
+        },
+      ],
+    },
 
     socialLinks: [
       {

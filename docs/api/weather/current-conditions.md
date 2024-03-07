@@ -1,33 +1,19 @@
 ---
-title: Weather API
+title: Current Conditions
 layout: doc
 aside: false
 api: https://api.ttgtoolbox.com/v1/weather
 ---
 
 <script setup>
-import DividePage from '../../components/DividerPage.vue'   
+import DividePage from '../../../components/DividerPage.vue'   
 </script>
 
-# Weather API
-
-Get up-to-the-minute weather and accurate forecasts with the Weather API. Access current conditions and future predictions easily, empowering your applications with real-time weather data for informed decision-making.
-
-#### Base URL
-
-<pre>{{ $frontmatter.api }}</pre>
-
-#### Authentication
-
-Authentication is required for all API endpoints using **API Tokens** sent in the request header. See the [Getting Started](/api/getting-started) to learn how to set up your keys and authenticate to the API.
-
-## Current Conditions
+# Current Conditions
 
 Retrieves the current weather conditions for a given country and zip/postal code.
 
----
-
-### Endpoint <Badge type="tip" text="GET" />
+## Endpoint <Badge type="tip" text="GET" />
 
 <pre>{{ $frontmatter.api }}/<Badge type="tip" text="country_code" />/<Badge type="tip" text="postal_code" />/current</pre>
 
@@ -38,9 +24,10 @@ Retrieves the current weather conditions for a given country and zip/postal code
 
 ### Required parameters
 
-The following parameters are required.
+This endpoint uses the `GET' method and has the following required parameters.
 
-<Badge type="tip" text="country_code" /><Badge type="danger" text="required" /><br/>
+<b><pre>country_code</pre></b><Badge type="danger" text="required" /><br/>
+
 A valid country code is required. The following country codes are supported:
 
 | Country       | Code |
@@ -48,15 +35,13 @@ A valid country code is required. The following country codes are supported:
 | United States |  US  |
 | Canada        |  CA  |
 
-<Badge type="tip" text="postal_code" /><Badge type="danger" text="required" /><br/>
+<b><pre>postal_code</pre></b><Badge type="danger" text="required" /><br/>
 
 A valid zip / postal code is required.
 
 ### Optional parameters
 
-There is one optional parameter.
-
-<Badge type="tip" text="units" /><br/><br/>
+<b><pre>units</pre></b>
 
 Use the `units` parameter to specify the units for all fields with a standard units, e.g. miles or kilometers. The following units are supported:
 
@@ -96,7 +81,7 @@ https://api.ttgtoolbox.com/v1/weather/US/49010/current
 
 ### Returns
 
-The a JSON body containing the current weather conditions.
+A JSON object containing the current weather conditions.
 
 ---
 
