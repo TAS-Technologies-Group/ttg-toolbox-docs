@@ -19,7 +19,7 @@ The Validation API is currently on version 1.
 
 ## Authentication
 
-Authentication is required for all API endpoints using **API Tokens** sent in the request header. See the [Getting Started](/api/getting-started) page to learn how to set up your keys and authenticate to the API.
+Authentication is required for all API endpoints using **API Tokens** sent in the request header. See the [Getting Started](/library/agent-assist/getting-started) page to learn how to set up your keys and authenticate to the API.
 
 ## Response codes & errors
 
@@ -43,9 +43,9 @@ Tutorials and guides, including downloadable example scripts, are available on t
 
 All of our APIs use credits for billing and tracking purposes. The Validation API consumes credits as follows:
 
-| API                          | Endpoint                 | Credits per use              |
-| ---------------------------- | ------------------------ | ---------------------------- |
-| Validate Phone Number        | /v1/validate/phonenumber | 0                            |
-| Validate Phone Number + Name | /v1/validate/phonenumber | 1                            |
-| Validate Address             | /v1/validate/address     | 0.2                          |
-| Validate Message             | /v1/validate/message     | 0.1 per 100 total characters |
+| API                          | Endpoint                 | Credits per use                    |
+| ---------------------------- | ------------------------ | ---------------------------------- |
+| Validate Phone Number        | /v1/validate/phonenumber | 0 <Badge type="tip" text="free" /> |
+| Validate Phone Number + Name | /v1/validate/phonenumber | 1                                  |
+| Validate Address             | /v1/validate/address     | 0.2                                |
+| Validate Message             | /v1/validate/message     | 0.1 per 100 total characters       |

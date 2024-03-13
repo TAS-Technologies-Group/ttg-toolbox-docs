@@ -22,32 +22,34 @@ Retrieves an hourly weather forecast for a given country and zip/postal code for
 <DividePage :top="63">
 <template #left>
 
-### Required parameters
+### Required path parameters
 
-This endpoint uses the `GET' method and has the following required parameters.
+This endpoint uses the `GET` method and has the following required parameters.
 
-<b><pre>country_code</pre></b><Badge type="danger" text="required" /><br/>
+<span style="font-family:courier; font-weight:bold">country_code</span><Badge type="danger" text="required" /><br/>
 
-The following country codes are supported:
+We support the following country codes.
 
 | Country       | Code |
 | ------------- | :--: |
 | United States |  US  |
 | Canada        |  CA  |
 
-<b><pre>postal_code</pre></b><Badge type="danger" text="required" />
+<span style="font-family:courier; font-weight:bold">postal_code</span><Badge type="danger" text="required" />
 
 A valid zip / postal code for a supported country.
 
-### Optional parameters
+### Optional path parameters
 
-<b><pre>hour</pre></b>
+<span style="font-family:courier; font-weight:bold">hour</span>
 
 Use the `hour` parameter to limit the response to a one-hour forecast. The `hour` designates which hour of the 48-hour forecast to retrieve. For example, `0` will return the forecast for the current hour, whereas `8` will return the one-hour forecast 8 hours in the future.
 
-<b><pre>units</pre></b>
+### Optional query parameters
 
-Use the `units` parameter to specify the units for all fields with a standard units, e.g. miles or kilometers. The following units are supported:
+<span style="font-family:courier; font-weight:bold">units</span>
+
+Use the `units` parameter to specify the units for all fields with standard units, e.g., miles or kilometers. The following units are supported:
 
 | Units    | Examples                       |
 | -------- | ------------------------------ |

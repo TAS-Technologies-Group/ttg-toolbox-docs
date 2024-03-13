@@ -29,10 +29,26 @@ export default defineConfig({
           ],
         },
         {
+          text: "Agent Assist API Suite",
+          items: [
+            {
+              text: "Introduction",
+              link: "/library/agent-assist/agent-assist",
+            },
+            {
+              text: "Getting started",
+              link: "/library/agent-assist/getting-started",
+            },
+          ],
+        },
+        {
           text: "SMS Gateway",
           items: [
             { text: "What is SMS Gateway?", link: "/library/sms-gateway" },
-            { text: "Getting Started", link: "/sms-gateway/getting-started" },
+            {
+              text: "Getting Started",
+              link: "/library/sms-gateway/getting-started",
+            },
           ],
         },
         {
@@ -143,6 +159,14 @@ export default defineConfig({
             {
               text: "Hourly Forecast",
               link: "/api/weather/hourly-forecast",
+            },
+            {
+              text: "Daily Forecast",
+              link: "/api/weather/daily-forecast",
+            },
+            {
+              text: "Weather Alerts",
+              link: "/api/weather/alerts",
             },
           ],
         },

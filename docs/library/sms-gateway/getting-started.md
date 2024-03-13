@@ -6,4 +6,4 @@ There's a few things we need to take care of before you can send your first SMS 
 
 ## SMS Gateway Key & Token
 
-The `SMS Gateway Key` & `SMS Gateway Token` are unique identifies specific to your account. They're included in the welcome letter and can also be view through this website, [here](https://ttg-toolbox.com/app/api-keys).
+The `SMS Gateway Key` & `SMS Gateway Token` are unique identifies specific to your account. They're included in the welcome letter.

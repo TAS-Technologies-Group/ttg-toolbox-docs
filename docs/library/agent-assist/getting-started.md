@@ -1,9 +1,15 @@
 ---
 title: Agent Assist API Suite
 layout: doc
-aside: false
+aside: true
 ---
 
-# Agent Assist API Suite
+# Getting started
 
 More information coming soon! For now, check out the [API Reference](/api/home) docs.
+
+## API Keys
+
+::: info IN PROGRESS
+**Content in active development. Check back soon.**
+:::

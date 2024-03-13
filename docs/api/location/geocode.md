@@ -10,3 +10,7 @@ import DividePage from '../../../components/DividerPage.vue'
 </script>
 
 # Geocode
+
+::: tip ATTENTION
+The **Geocoding API** is under active development and will be released soon!
+:::

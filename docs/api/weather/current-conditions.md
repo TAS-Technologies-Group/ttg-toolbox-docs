@@ -22,33 +22,33 @@ Retrieves the current weather conditions for a given country and zip/postal code
 <DividePage :top="63">
 <template #left>
 
-### Required parameters
+### Required path parameters
 
-This endpoint uses the `GET' method and has the following required parameters.
+This endpoint uses the `GET` method and has the following required parameters.
 
-<b><pre>country_code</pre></b><Badge type="danger" text="required" /><br/>
+<span style="font-family:courier; font-weight:bold">country_code</span><Badge type="danger" text="required" /><br/>
 
-A valid country code is required. The following country codes are supported:
+We support the following country codes.
 
 | Country       | Code |
 | ------------- | :--: |
 | United States |  US  |
 | Canada        |  CA  |
 
-<b><pre>postal_code</pre></b><Badge type="danger" text="required" /><br/>
+<span style="font-family:courier; font-weight:bold">postal_code</span><Badge type="danger" text="required" /><br/>
 
 A valid zip / postal code is required.
 
-### Optional parameters
+### Optional query parameters
 
-<b><pre>units</pre></b>
+<span style="font-family:courier; font-weight:bold">units</span>
 
-Use the `units` parameter to specify the units for all fields with a standard units, e.g. miles or kilometers. The following units are supported:
+Use the `units` parameter to specify the units for all fields with standard units, e.g., miles or kilometers. The following units are supported:
 
-| Units    | Examples                       |
-| -------- | ------------------------------ |
-| imperial | miles, fahrenheit, in. mercury |
-| metric   | kilometers, celsius, pascals   |
+| <span style="font-family:courier; font-weight:bold">units</span> | Examples                       |
+| ---------------------------------------------------------------- | ------------------------------ |
+| imperial                                                         | miles, fahrenheit, in. mercury |
+| metric                                                           | kilometers, celsius, pascals   |
 
 ---
 

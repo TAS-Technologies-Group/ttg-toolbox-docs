@@ -24,27 +24,27 @@ Translates text by automatically detecting the source language and translating i
 
 ### Request body
 
-This endpoint use the `POST` method and requires a JSON object as the request body.
+This endpoint uses the `POST` method and requires a JSON object as the request body.
 
 #### Required parameters
 
-The following parameters are required as the request body.
+The request body requires the following parameters.
 
-<b><pre>to</pre></b><Badge type="info" text="string" /><Badge type="danger" text="required" /><br/>
+<span style="font-family:courier; font-weight:bold">to</span><Badge type="info" text="string" /><Badge type="danger" text="required" /><br/>
 
 The language to translate `to`. See [supported languages](#supported-languages) below.
 
-<b><pre>text</pre></b><Badge type="info" text="string" /><Badge type="danger" text="required" /><br/>
+<span style="font-family:courier; font-weight:bold">text</span><Badge type="info" text="string" /><Badge type="danger" text="required" /><br/>
 
 The text to translate.
 
 #### Optional parameters
 
-<b><pre>text</pre></b><Badge type="info" text="string" /><br/>
+<span style="font-family:courier; font-weight:bold">from</span><Badge type="info" text="string" /><br/>
 
 The language to translate `from`. Unless explicitly specified using the `from` parameter, the API will determine the source language automatically,
 
-<b><pre>promptSuffix</pre></b><Badge type="info" text="string" /><Badge type="warning" text="advanced feature" /><br/>
+<span style="font-family:courier; font-weight:bold">promptSuffix</span><Badge type="info" text="string" /><Badge type="warning" text="advanced feature" /><br/>
 
 A prompt suffix can be included to add additional context and instructions for the translation.
 

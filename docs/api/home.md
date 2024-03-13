@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Getting Started
-      link: /api/getting-started
+      link: /library/agent-assist/getting-started
     - theme: alt
       text: Toolbox Site
       link: https://ttgtoolbox.com
