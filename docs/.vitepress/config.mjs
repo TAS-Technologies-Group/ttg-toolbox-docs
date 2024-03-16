@@ -36,8 +36,8 @@ export default defineConfig({
               link: "/library/agent-assist/agent-assist",
             },
             {
-              text: "Getting started",
-              link: "/library/agent-assist/getting-started",
+              text: "Authentication",
+              link: "/library/agent-assist/authentication",
             },
           ],
         },

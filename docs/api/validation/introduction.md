@@ -19,7 +19,7 @@ The Validation API is currently on version 1.
 
 ## Authentication
 
-Authentication is required for all API endpoints using **API Tokens** sent in the request header. See the [Getting Started](/library/agent-assist/getting-started) page to learn how to set up your keys and authenticate to the API.
+Authentication is required for all API endpoints using an **API Key** sent in the request header. See the [Authentication](/library/agent-assist/authentication) page to learn how to set up your keys and authenticate to the API.
 
 ## Response codes & errors
 
