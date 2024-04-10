@@ -81,6 +81,10 @@ export default defineConfig({
               link: "/api/location/introduction",
             },
             {
+              text: "Closest Location",
+              link: "/api/location/closest-location",
+            },
+            {
               text: "Directions",
               link: "/api/location/directions",
             },
