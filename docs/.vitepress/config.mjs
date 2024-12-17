@@ -17,6 +17,10 @@ export default defineConfig({
       { text: "Home", link: "/" },
       { text: "Document Library", link: "/introduction" },
       { text: "API Reference", link: "/api/home" },
+      {
+        text: "<service-status-widget service-name='System Status' api-endpoint='https://status.tastechgroup.com/api/v1/status' polling-interval='15000' status-page-url='https://status.tastechgroup.com' compact></service-status-widget>",
+        link: "",
+      },
     ],
 
     sidebar: {
@@ -195,7 +199,8 @@ export default defineConfig({
     },
 
     footer: {
-      copyright: "Copyright © 2024, TAS Technologies Group",
+      copyright:
+        "Copyright © 2024, TAS Technologies Group <service-status-widget service-name='System Status' api-endpoint='https://status.tastechgroup.com/api/v1/status' polling-interval='15000' status-page-url='https://status.tastechgroup.com' compact></service-status-widget>",
     },
   },
 });
