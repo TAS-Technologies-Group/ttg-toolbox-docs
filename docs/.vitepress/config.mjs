@@ -9,7 +9,17 @@ export default defineConfig({
     type: Boolean,
     default: true,
   },
-  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+  head: [
+    ["link", { rel: "icon", href: "/favicon.ico" }],
+    [
+      "script",
+      {
+        async: true,
+        type: "module",
+        src: "https://status.tastechgroup.com/status-widget/index.js",
+      },
+    ],
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/logo-plain.svg",
@@ -17,6 +27,10 @@ export default defineConfig({
       { text: "Home", link: "/" },
       { text: "Document Library", link: "/introduction" },
       { text: "API Reference", link: "/api/home" },
+      {
+        text: "<service-status-widget service-name='System Status' api-endpoint='https://status.tastechgroup.com/api/v1/status' polling-interval='15000' status-page-url='https://status.tastechgroup.com' compact></service-status-widget>",
+        link: "",
+      },
     ],
 
     sidebar: {
